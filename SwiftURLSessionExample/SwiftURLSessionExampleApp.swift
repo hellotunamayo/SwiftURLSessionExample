@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftURLSessionExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SecondMethodView()
         }
     }
 }

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FirstMethodView.swift
 //  playground
 //
 //  Created by Minyoung Yoo on 2023/08/09.
@@ -53,7 +53,7 @@ class FakeDataList: ObservableObject {
     }
 }
 
-struct ContentView: View {
+struct FirstMethodView: View {
     
     @State private var isPresented: Bool = false
     @ObservedObject private var fakeDataList: FakeDataList = FakeDataList()
@@ -73,6 +73,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FirstMethodView()
     }
 }
